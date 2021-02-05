@@ -7,6 +7,7 @@ end
 
 def batch_badge_creator(speakers_lineup)
   speakers_lineup.collect {|speakers| badge_maker(speaker)}
+end
 
 def printer(speakers)
   batch_badge_creator(speakers).each do |assignment|
