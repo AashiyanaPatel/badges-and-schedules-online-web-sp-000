@@ -3,6 +3,10 @@ def badge_maker(speakers)
 end
 
 speakers_lineup = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+end
+
+def batch_badge_creator(speakers_lineup)
+  speakers_lineup.collect {|speakers| badge_maker(speaker)}
 
 def printer(speakers)
   batch_badge_creator(speakers).each do |assignment|
