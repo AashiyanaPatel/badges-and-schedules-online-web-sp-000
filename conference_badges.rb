@@ -5,6 +5,7 @@ end
 speakers_lineup = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
  end
 end
+
 def batch_badge_creator(speakers_lineup)
   speakers_lineup.collect {|speakers| badge_maker(speaker)}
  end
