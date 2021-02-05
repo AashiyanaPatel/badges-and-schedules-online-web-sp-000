@@ -1,3 +1,3 @@
-def conference_badges(badge_maker)
-  badge_maker ("Arel")
+def assign_rooms(speaker_lineup)
+  speakers_lineup.each_with_index.map {|speaker_lineup| "Hello, #{speaker}! You'll be assigned."
 end
